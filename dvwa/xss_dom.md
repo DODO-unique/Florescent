@@ -6,7 +6,7 @@ so the URL looks like:
 `localhost/DVWA/vulnerabilities/xss_d/?default=English</option><script>alert('XSS')</script>`
 
 This happens because the form code for this xss_dom is:
-
+```
 		<form name="XSS" method="GET">
 			<select name="default">
 				<script>
@@ -24,5 +24,5 @@ This happens because the form code for this xss_dom is:
 			</select>
 			<input type="submit" value="Select" />
 		</form>
-
+```
 we close the option's tag and pass our stuff there.

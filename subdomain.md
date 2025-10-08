@@ -1,0 +1,3 @@
+• **Subdirectories** (or subfolders) are parts of the main domain, organized as folders in the URL (e.g., cooking.com/shop). They are used for different sections of the same, unified website. SEO authority is shared across all subdirectories.
+• **Subdomains** are separate, distinct websites that are part of a larger brand (e.g., [suspicious link removed]). They are used when a section needs its own platform, is for a different audience, or is for international versions of a site. Each subdomain is treated as a separate website by search engines.
+• Real-world examples of subdomains include `mail.google.com`, `en.wikipedia.org`, and `support.apple.com`.

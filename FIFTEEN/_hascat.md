@@ -1,3 +1,12 @@
+shortest version:
+
+1. get the hash from windows
+2. store it in hashest.txt
+3. create a dictionary of list.txt
+4. use: `hashcat -m 1000 -a 0 hashes.txt list.txt`
+5. that's it. Remember, 1000 is NTLM, native to windows hashing. also, get the hashes from SAM (security account manager (SAM)) database of windows
+
+
 
 
 Short version: 
